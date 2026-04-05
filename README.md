@@ -70,11 +70,10 @@ launchctl load ~/Library/LaunchAgents/com.user.macos-screen-sharing-resolution-a
 launchctl list | grep com.user.macos-screen-sharing-resolution-automation
 ```
 
+If the agent is loaded, this command should print a line containing the label. If there is no output, the agent is not currently loaded. E.g.
 ```plain
 21714	0	com.user.macos-screen-sharing-resolution-automation
 ```
-
-If the agent is loaded, this command should print a line containing the label. If there is no output, the agent is not currently loaded.
 
 ### Try it
 Disconnect your Screen Sharing session and reconnect.  
